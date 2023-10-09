@@ -5,7 +5,7 @@
 
 	if($_SERVER['HTTP_HOST']=="localhost")
 	{
-	$serverIp="localhost";
+	$serverIp="goodmorning";
 	$userName="goodmorning";
 	$password="goodmorning";
 	$dbname="goodmorning";
@@ -14,7 +14,7 @@
 	{
 	//Live
 
-	$serverIp="localhost";
+	$serverIp="goodmorning";
 	$userName="goodmorning";
 	$password="goodmorning";
 	$dbname="goodmorning";
