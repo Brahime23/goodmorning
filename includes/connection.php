@@ -5,18 +5,18 @@
 
 	if($_SERVER['HTTP_HOST']=="localhost")
 	{
-	$serverIp="goodmorning";
+	$serverIp="localhost";
 	$userName="goodmorning";
-	$password="goodmorning";
+	$password="";
 	$dbname="goodmorning";
 
 	}else
 	{
 	//Live
 
-	$serverIp="goodmorning";
+	$serverIp="localhost";
 	$userName="goodmorning";
-	$password="goodmorning";
+	$password="";
 	$dbname="goodmorning";
 	}
   $cn=mysqli_connect($serverIp,$userName,$password) OR Die("Couldn't Connect - ".mysqli_error());
