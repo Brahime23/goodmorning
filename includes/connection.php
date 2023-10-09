@@ -6,18 +6,18 @@
 	if($_SERVER['HTTP_HOST']=="localhost")
 	{
 	$serverIp="localhost";
-	$userName="root";
-	$password="";
-	$dbname="hdwallpaper_client";
+	$userName="goodmorning";
+	$password="goodmorning";
+	$dbname="goodmorning";
 
 	}else
 	{
 	//Live
 
-	$serverIp="HOSTNAME";
-	$userName="USERNAME";
-	$password="PASSWORD";
-	$dbname="DATABASE";
+	$serverIp="localhost";
+	$userName="goodmorning";
+	$password="goodmorning";
+	$dbname="goodmorning";
 	}
   $cn=mysqli_connect($serverIp,$userName,$password) OR Die("Couldn't Connect - ".mysqli_error());
 	$link=mysqli_select_db($cn,$dbname)or Die("Couldn't SELCECT - ".mysqli_error());
